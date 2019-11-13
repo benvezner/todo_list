@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Assignment 19</title>
+</head>
+<body>
+<script src="index.js"></script>
+
+<div id="todoList">
+<h2>To Do List:</h2>
+
+<form method="get" onsubmit="addLi()">
+    <input type="text" name="todoItem" placeholder="name" id="textValue" />
+    <input type="submit" value="submit" />
+</form>
+
+<ul id="list">
+    <li onclick="removeToDo()">Wake up</li>
+    <li onclick="removeToDo()">Eat Breakfast</li>
+    <li onclick="removeToDo()">Brush Teeth</li>
+</ul>
+
+</div>
+
+</body>
+</html>
